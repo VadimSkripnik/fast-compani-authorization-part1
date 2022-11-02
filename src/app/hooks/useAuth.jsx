@@ -48,7 +48,6 @@ const AuthProvider = ({ children }) => {
                 password,
                 returnSecureToken: true
             });
-            console.log(data);
             setTokens(data);
         } catch (error) {
             errorCatcher(error);
